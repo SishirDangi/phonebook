@@ -156,7 +156,7 @@ while(fread(&p,sizeof(p),1,f)==1)
 	printf("\nName : %s",p.name);
 	printf("\naddress : %s",p.address);
 	printf("\nFather name : %s",p.father_name);
-	printf("\Mother name : %s",p.mother_name);
+	printf("\nMother name : %s",p.mother_name);
 	printf("\nMobile number : %ld",p.mobile_no);
 	printf("\nGender : %s",p.sex);
 	printf("\nE-Mail : %s",p.email);
